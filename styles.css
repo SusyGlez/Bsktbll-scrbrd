@@ -4,3 +4,20 @@
     font-weight: normal;
 }   
 
+html{
+    background-color: #1B244A;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.home, .guest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: #EEEEEE;
+}
