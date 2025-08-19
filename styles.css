@@ -8,12 +8,15 @@ html{
     background-color: #1B244A;
 }
 
-.titles {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+body {
+    margin: 0;
     text-align: center;
-    justify-content:space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home, .guest {
@@ -21,24 +24,6 @@ html{
     font-size: 2.5rem;
     font-weight: bold;
     color: #EEEEEE;
-}
-
-.home-container {
-    display:inline-block;
-    flex-direction: column;
-    align-items:center;
-    text-align: center;
-    justify-content:space-between;
-    border: 10px solid magenta;
-}
-
-.guest-container {
-    display: inline-block;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    border: 10px solid magenta;
 }
 
 #homescore-el, #guestscore-el {
