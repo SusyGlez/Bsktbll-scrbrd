@@ -35,6 +35,15 @@ body {
     border-radius: 5px;
 }
 
+.timer {
+    font-family: 'CursedTimerUlil-Aznm';
+    font-size: 2rem;
+    color: #F94F6D;
+    background-color: #080001;
+    border: 25px solid #080001;
+    border-radius: 5px;
+}
+
 button {
     border: 2px solid #9AABD8;
     background-color: transparent;
@@ -58,7 +67,8 @@ button {
     width: 100px;
     border-radius: 100px;
     background-color: transparent;
-    animation: bounce 2s ease-in-out infinite;
+    animation: bounce 1s ease-in-out infinite;
+    bottom: -5px;
 }
 
 .shadow {
@@ -68,7 +78,7 @@ button {
     border-radius: 50%;
     position: absolute;
     bottom: -5px;
-    animation: shadow 2s ease-in-out infinite;
+    animation: shadow 1s ease-in-out infinite;
 }
 
 @keyframes bounce {
