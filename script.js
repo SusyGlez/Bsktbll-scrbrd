@@ -32,3 +32,8 @@ function incrementguest3() {
     guestscore += 3
     guestscoreEl.textContent = guestscore
 }
+
+function restart() {
+    homescoreEl.textContent = 0
+    guestscoreEl.textContent = 0
+}
