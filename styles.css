@@ -35,6 +35,12 @@ body {
     border-radius: 5px;
 }
 
+.highlight {
+    box-shadow: 0 0 20px 5px red;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
 .timer {
     font-family: 'CursedTimerUlil-Aznm';
     font-size: 2rem;

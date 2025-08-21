@@ -6,31 +6,50 @@ let guestscore = 0
 function incrementhome1() {
     homescore += 1
     homescoreEl.textContent = homescore
+    updateHighlight()
 }
 
 function incrementguest1() {
     guestscore += 1
     guestscoreEl.textContent = guestscore
+    updateHighlight()
 }
 
 function incrementhome2() {
     homescore += 2
     homescoreEl.textContent = homescore
+    updateHighlight()
 }
 
 function incrementguest2() {
     guestscore += 2
     guestscoreEl.textContent = guestscore
+    updateHighlight()
 }
 
 function incrementhome3() {
     homescore += 3
     homescoreEl.textContent = homescore
+    updateHighlight()
 }
 
 function incrementguest3() {
     guestscore += 3
     guestscoreEl.textContent = guestscore
+    updateHighlight()
+}
+
+function updateHighlight () {
+    if (homescore > guestscore) {
+        homescoreEl.classList.add("highlight");
+        guestscoreEl.classList.remove("highlight");
+    }   else if (guestscore > homescore) {
+        guestscoreEl.classList.add("highlight");
+        homescoreEl.classList.remove("highlight");
+    }   else {
+        homescoreEl.classList.remove("highlight");
+        guestscoreEl.classList.remove("highlight");
+    }
 }
 
 function restart() {
