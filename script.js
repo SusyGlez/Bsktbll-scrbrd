@@ -36,4 +36,6 @@ function incrementguest3() {
 function restart() {
     homescoreEl.textContent = 0
     guestscoreEl.textContent = 0
+    homescore = 0;
+    guestscore = 0;
 }
